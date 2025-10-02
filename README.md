@@ -134,14 +134,11 @@ A snapshot of the main Python file (`app.py`) showing Flask routes, SMTP email h
 ![Database Structure](screenshots/database.png)  
 This shows the `users` table in MySQL, including columns for `id`, `email`, `password_hash`, and `created_at`. The database stores user credentials securely.
 
----
-
-### 5. VS Code Interface
-![VS Code Interface](screenshots/vscode.png)  
-A view of the project opened in Visual Studio Code, showing folder structure, files, and code organization.
 
 ---
 
-### 6. Sample Email
-![Sample Email](screenshots/email.png)  
+### 5. Sample Email
+![Sample Email](screenshots/email.png) 
+
+![Sample Email](screenshots/email2.png)  
 An example of the HTML email sent to users after registration or password reset. Includes user ID, password, and a professional design for readability and branding.
