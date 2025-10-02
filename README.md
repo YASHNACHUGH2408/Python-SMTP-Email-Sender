@@ -105,3 +105,43 @@ python app.py
 ```
 
 The application will be available at: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+
+## 🖼️ Screenshots
+
+To give a visual overview of the project, here are some key screenshots:
+
+---
+
+### 1. Registration Page
+![Registration Page](screenshots/register.png)  
+This is the main registration interface where new users can sign up. The form includes real-time email validation and a modern, tab-based UI built with Bootstrap 5.
+
+---
+
+### 2. Forgot Password Page
+![Forgot Password Page](screenshots/forgot.png)  
+This page allows users to reset their password. Once the email is submitted, a new password is generated and sent securely via Gmail SMTP.
+
+---
+
+### 3. Code (app.py)
+![Code](screenshots/code.png)  
+A snapshot of the main Python file (`app.py`) showing Flask routes, SMTP email handling, database interactions, and password hashing.
+
+---
+
+### 4. Database Structure
+![Database Structure](screenshots/database.png)  
+This shows the `users` table in MySQL, including columns for `id`, `email`, `password_hash`, and `created_at`. The database stores user credentials securely.
+
+---
+
+### 5. VS Code Interface
+![VS Code Interface](screenshots/vscode.png)  
+A view of the project opened in Visual Studio Code, showing folder structure, files, and code organization.
+
+---
+
+### 6. Sample Email
+![Sample Email](screenshots/email.png)  
+An example of the HTML email sent to users after registration or password reset. Includes user ID, password, and a professional design for readability and branding.
