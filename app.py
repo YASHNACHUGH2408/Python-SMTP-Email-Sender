@@ -23,8 +23,8 @@ DB_CONFIG = {
 }
 
 # ---------------- SMTP Config ----------------
-SMTP_USER = "bajajaryan20@gmail.com"        # Gmail
-SMTP_PASS = "bbzp ztsj xpqn byvh"          # Gmail App Password
+SMTP_USER = "SMTP_USER"        # Gmail
+SMTP_PASS = "SMTP_PASS"         # Gmail App Password
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 587
 FROM_EMAIL = SMTP_USER
