@@ -113,32 +113,32 @@ To give a visual overview of the project, here are some key screenshots:
 ---
 
 ### 1. Registration Page
-![Registration Page](screenshots/register.png)  
+![Registration Page](screenshots/register.jpeg)  
 This is the main registration interface where new users can sign up. The form includes real-time email validation and a modern, tab-based UI built with Bootstrap 5.
 
 ---
 
 ### 2. Forgot Password Page
-![Forgot Password Page](screenshots/forgot.png)  
+![Forgot Password Page](screenshots/forgot.jpeg)  
 This page allows users to reset their password. Once the email is submitted, a new password is generated and sent securely via Gmail SMTP.
 
 ---
 
 ### 3. Code (app.py)
-![Code](screenshots/code.png)  
+![Code](screenshots/code.jpeg)  
 A snapshot of the main Python file (`app.py`) showing Flask routes, SMTP email handling, database interactions, and password hashing.
 
 ---
 
 ### 4. Database Structure
-![Database Structure](screenshots/database.png)  
+![Database Structure](screenshots/database.jpeg)  
 This shows the `users` table in MySQL, including columns for `id`, `email`, `password_hash`, and `created_at`. The database stores user credentials securely.
 
 
 ---
 
 ### 5. Sample Email
-![Sample Email](screenshots/email.png) 
+![Sample Email](screenshots/email.jpeg) 
 
-![Sample Email](screenshots/email2.png)  
+![Sample Email](screenshots/email2.jpeg)  
 An example of the HTML email sent to users after registration or password reset. Includes user ID, password, and a professional design for readability and branding.
