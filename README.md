@@ -125,7 +125,7 @@ This page allows users to reset their password. Once the email is submitted, a n
 ---
 
 ### 3. Code (app.py)
-![Code](screenshots/code.jpeg)  
+![Code](screenshots/code1.jpeg)  
 A snapshot of the main Python file (`app.py`) showing Flask routes, SMTP email handling, database interactions, and password hashing.
 
 ---
